@@ -1,0 +1,12 @@
+.vscode/
+
+#sistema operacional 
+.DS Store
+Thumbs.db
+
+#dependencias do nodejs (caso use futuramente)
+node_modules/
+
+#arquivos de ambiente e arquivos sensiveis
+.env 
+.env.local
