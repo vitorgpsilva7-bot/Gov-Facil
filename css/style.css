@@ -1,0 +1,283 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 8%;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1351b4;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav a:hover{
+    color: #1351b4
+}
+
+header button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+
+    background-color: #1351b4
+    color: white;
+
+    font-size: 16px;
+    font-weight 500;
+
+    cursor: pointer;
+
+    transition: background-color 0,2s;
+}
+
+header button:hover{
+    background-color: #0d3F8f
+}
+
+
+.hero {
+    background-color: #ffffff;
+
+    text-align: center;
+
+    padding: 100px 20px;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #1351b4;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+
+    max-width: 600px;
+
+    margin: 0 auto 40px;
+}
+
+.busca {
+    display: flex;
+
+    justify-content: center;
+
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    box-shadow:  0 2px 8px rgba(0,0,0,0.1)
+
+    border-radius: 6px;
+}
+
+.busca input {
+    width: 100%;
+
+    padding: 18px;
+
+    border: 1px solid #1351b4;
+
+    font-size: 16px; 
+
+    border-radius: 3px 3 3 3px;
+}
+
+.busca button {
+    padding: 15px 25px;
+    border: none;
+    background-color: #1351b4;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.busca button:hover {
+    background-color: #0d3F8f
+}
+
+.servicos {
+    padding: 70px 8%;
+    background-color: #f5f5f5;
+}
+
+.servicos h2{
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.categorias button {
+    background-color: white;
+
+    border: 1px solid #ddd;
+
+    padding: 30px;
+
+    border-radius: 6px;
+
+    font-size: 17px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.categorias button:hover{
+    border-color: #1351b4;
+
+    transform: translatey(-3px);
+}
+
+.assitente {
+    background-color: #e8f0fe;
+    padding: 70px 8%;
+    text-align: center;
+}
+
+.assistente-conteudo {
+    max-width: 700px;
+    margin: 0 auto; 
+
+}
+
+.assistente h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.assistente p{
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.assistente button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1351b4;
+    color: white;
+    cursor: pointer;
+}
+
+.assistente button:hover {
+    background-color: #0d3f8f;
+}
+
+.card-servico {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+.card-servico h3{
+    margin-bottom: 10px;
+    color: #1341b4;
+}
+
+.card-servico p{
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card-servico button{
+    background-color: #1341b4;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-servico button:hover {
+    opacity: 0.5
+}
+
+.botao-servico {
+    display: inline-block;
+    Background-color: #1351b4;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao-servico:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 8%;
+}
+
+.footer-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px; 
+}
+
+.footer-conteudo nav {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-conteudo a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-conteudo a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    color: #f8f3f3;
+    font-size: 14px;
+}
+
