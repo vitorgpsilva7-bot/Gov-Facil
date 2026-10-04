@@ -7,31 +7,31 @@ const servicos = [
         nome: "Segunda via do CPF",
         categoria: "Documentos",
         descricao: "Consulte informações sobre a segunda via do CPF;",
-        link: "servico.html"
+        link: "servico.html?servico=cpf"
     },
     {
         nome: "Carteira de trabalho",
         categoria: "Trabalho",
         descricao: "Consulte informações sobre a Carteira de Trabalho.",
-        link: "servico.html"
+        link: "servico.html?servico=trabalho"
     },
     {
         nome: "Consulta do Bolsa Familia",
         categoria: "Beneficios",
         descricao: "Consulte informações sobre o Bolsa Familia",
-        link: "servico.html"
+        link: "servico.html?servico=bolsa"
     },
     {
         nome: "Agendamento de atendimento",
         categoria: "Atendimento",
         descricao: "Agende um atendimento em um serviço público.",
-        link: "servico.html"
+        link: "servico.html?servico=atendimento"
     },
     {
         nome: "Carteira de motorista",
         categoria: "Transporte",
         descricao: "Consulte informações sobre sua carteira de motorista.",
-        link: "servico.html"
+        link: "servico.html?servico=habilitacao"
     }
 ];
 
